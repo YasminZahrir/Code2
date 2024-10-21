@@ -12,8 +12,6 @@ var LinterTest;
         let result = "";
         for (let i = 0; i < _text.length; i++)
             result += String.fromCharCode(_text.charCodeAt(i) + _key);
-        {
-            return result;
-        }
+        return result;
     }
 })(LinterTest || (LinterTest = {}));
