@@ -1,6 +1,6 @@
 "use strict";
-var linterTest;
-(function (linterTest) {
+var LinterTest;
+(function (LinterTest) {
     let KEY;
     (function (KEY) {
         KEY[KEY["POS"] = 1] = "POS";
@@ -12,8 +12,8 @@ var linterTest;
         let result = "";
         for (let i = 0; i < _text.length; i++)
             result += String.fromCharCode(_text.charCodeAt(i) + _key);
-        return result;
+        {
+            return result;
+        }
     }
-    linterTest.deCrypt = deCrypt;
-})(linterTest || (linterTest = {}));
-console.log(linterTest.deCrypt("Huh", 2));
+})(LinterTest || (LinterTest = {}));
