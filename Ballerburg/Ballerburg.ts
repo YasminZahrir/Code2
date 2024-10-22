@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const power:HTMLInputElement = document.getElementById('Angle') as HTMLInputElement;
+    const power:HTMLInputElement = document.getElementById('power') as HTMLInputElement;
+    const angle:HTMLInputElement = document.getElementById('angle') as HTMLInputElement;
   
     // Set step size (how much the slider moves when pressing A/D keys)
     const step:number = 10;
@@ -20,10 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
         power.value = currentValue.toString();
       }
     });
-    const angle:HTMLInputElement = document.getElementById('Angle2') as HTMLInputElement;
-  
-    // Set step size (how much the slider moves when pressing A/D keys)
-    const step2:number = 10;
   
     // Add keydown event listener
     document.addEventListener('keydown', (_event: KeyboardEvent) => {
@@ -33,11 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
       // Check which key is pressed
       if (_event.key === 's') {
         // Move left (decrease value) like pressing left arrow
-        currentValue = currentValue - step2;
+        currentValue = currentValue - step;
         angle.value = currentValue.toString();
       } else if (_event.key === 'w') {
         // Move right (increase value) like pressing right arrow
-        currentValue = currentValue + step2;
+        currentValue = currentValue + step;
         angle.value = currentValue.toString();
       }});
     });
