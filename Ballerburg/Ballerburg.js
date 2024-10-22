@@ -26,12 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
         let currentValue = angle.valueAsNumber;
         // Check which key is pressed
         if (_event.key === 's') {
-            // Move left (decrease value) like pressing left arrow
+            // Move down (decrease value) like pressing down arrow
             currentValue = currentValue - step;
             angle.value = currentValue.toString();
         }
         else if (_event.key === 'w') {
-            // Move right (increase value) like pressing right arrow
+            // Move up (increase value) like pressing up arrow
             currentValue = currentValue + step;
             angle.value = currentValue.toString();
         }
