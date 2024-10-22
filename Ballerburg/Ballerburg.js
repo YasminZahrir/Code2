@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (_event.key === 's') {
             // Move left (decrease value) like pressing left arrow
             currentValue = currentValue - step2;
-            slider.value = currentValue.toString();
+            slider2.value = currentValue.toString();
         }
         else if (_event.key === 'w') {
             // Move right (increase value) like pressing right arrow
