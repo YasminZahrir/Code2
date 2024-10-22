@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add keydown event listener
     document.addEventListener('keydown', (_event) => {
         // Get current slider value
-        let currentValue = parseInt(slider.value, 10);
+        let currentValue = slider.valueAsNumber;
         // Check which key is pressed
         if (_event.key === 'a') {
             // Move left (decrease value) like pressing left arrow

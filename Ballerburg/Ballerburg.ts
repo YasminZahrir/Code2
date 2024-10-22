@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add keydown event listener
     document.addEventListener('keydown', (_event: KeyboardEvent) => {
       // Get current slider value
-      let currentValue:number = parseInt(slider.value, 10);
+      let currentValue:number = slider.valueAsNumber;
   
       // Check which key is pressed
       if (_event.key === 'a') {
