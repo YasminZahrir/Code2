@@ -6,6 +6,11 @@ input[type=range][orient=vertical] {
     vertical-align: bottom;
 }
 
+#UpperBanner {
+    width: 1500px;
+    height: 60px;
+    color: blue;
+}
 canvas {
     background-color: aqua;
 }
