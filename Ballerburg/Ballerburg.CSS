@@ -9,7 +9,7 @@ input[type=range][orient=vertical] {
 #UpperBanner {
     width: 1500px;
     height: 60px;
-    background-color: blue;
+    background-color: aliceblue;
 }
 canvas {
     background-color: aqua;
@@ -22,6 +22,12 @@ canvas {
 }
 
 #angle {
-    display:inline-flex;
-    text-align: center;
+    overflow: hidden;
+    height: 75%;
+}
+
+#power {
+    overflow: hidden;
+    width: 8%;
+    height: 45%;
 }
