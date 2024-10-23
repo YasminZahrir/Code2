@@ -20,14 +20,3 @@ canvas {
     height: 125px;
     background-color: aliceblue;
 }
-
-#angle {
-    overflow: hidden;
-    height: 75%;
-}
-
-#power {
-    overflow: hidden;
-    width: 8%;
-    height: 45%;
-}
