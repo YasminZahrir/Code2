@@ -14,3 +14,14 @@ input[type=range][orient=vertical] {
 canvas {
     background-color: aqua;
 }
+
+#LowerBanner {
+    width: 1500px;
+    height: 125px;
+    background-color: aliceblue;
+}
+
+#angle {
+    display:inline-flex;
+    text-align: center;
+}
