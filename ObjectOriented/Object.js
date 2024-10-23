@@ -18,7 +18,7 @@ var VectorObject;
             this.y += _addend.y;
         }
     }
-    let v1 = new Vector(10, -3);
+    const v1 = new Vector(7, 3);
     v1.scale(2);
     console.log(v1);
 })(VectorObject || (VectorObject = {}));
