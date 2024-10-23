@@ -21,7 +21,7 @@ namespace VectorObject {
             this.y += _addend.y;
         }
     }
-    const v1: Vector = new Vector(7,3);
+    let v1: Vector = new Vector(10,-3);
     v1.scale(2);
     console.log(v1);
 }
