@@ -9,7 +9,7 @@ input[type=range][orient=vertical] {
 #UpperBanner {
     width: 1500px;
     height: 60px;
-    color: blue;
+    background-color: blue;
 }
 canvas {
     background-color: aqua;
