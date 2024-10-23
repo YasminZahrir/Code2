@@ -1,3 +1,7 @@
+const canvas: HTMLCanvasElement = document.querySelector("canvas#map")!;
+const ctx: CanvasRenderingContext2D = canvas.getContext("2d")!;
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const power:HTMLInputElement = document.getElementById('power') as HTMLInputElement;
     const angle:HTMLInputElement = document.getElementById('angle') as HTMLInputElement;

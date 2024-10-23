@@ -1,4 +1,6 @@
 "use strict";
+let canvas = document.querySelector("canvas#map");
+let ctx = canvas.getContext("2d");
 document.addEventListener('DOMContentLoaded', () => {
     const power = document.getElementById('power');
     const angle = document.getElementById('angle');
