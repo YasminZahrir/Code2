@@ -1,4 +1,4 @@
-
+namespace Ballerburg {
 interface Cannon {
     angle: number;
     power: number;
@@ -43,3 +43,4 @@ document.addEventListener('DOMContentLoaded', () => {
         angle.value = currentValue.toString();
       }});
     });
+}
