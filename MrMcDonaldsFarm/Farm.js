@@ -83,6 +83,10 @@
 var Farm;
 (function (Farm) {
     class Animal {
+        type;
+        sound;
+        food;
+        foodamount;
         constructor(_type, _sound, _food, _foodamount) {
             this.type = _type;
             this.sound = _sound;
@@ -127,6 +131,8 @@ var Farm;
         }
     }
     class FoodSilo {
+        type;
+        amount;
         constructor(_type, _amount) {
             this.type = _type;
             this.amount = _amount;

@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Yasmin = void 0;
-var Yasmin;
+export var Yasmin;
 (function (Yasmin) {
     function strategy(_score, _active, _potential) {
         if (_potential > 50) {
@@ -12,5 +9,5 @@ var Yasmin;
         }
     }
     Yasmin.strategy = strategy;
-})(Yasmin || (exports.Yasmin = Yasmin = {}));
+})(Yasmin || (Yasmin = {}));
 //# sourceMappingURL=Dice.js.map

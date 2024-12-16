@@ -3,9 +3,18 @@ var SolarSystemFudge;
 (function (SolarSystemFudge) {
     var ƒ = FudgeCore;
     class Body extends ƒ.Node {
+        static mesh = new ƒ.MeshSphere("Body");
+        static material = new ƒ.Material("Body", ƒ.ShaderLit);
+        position;
+        name;
+        rotationNode;
+        scalingNode;
+        size;
+        distance = 0;
+        vOrbit;
+        vRotation;
         constructor(_name, _size, _distance, _vOrbit, _color) {
             super(_name);
-            this.distance = 0;
             this.name = _name;
             this.size = _size;
             this.vOrbit = _vOrbit;
@@ -44,8 +53,6 @@ var SolarSystemFudge;
             this.distance = _distance;
         }
     }
-    Body.mesh = new ƒ.MeshSphere("Body");
-    Body.material = new ƒ.Material("Body", ƒ.ShaderLit);
     SolarSystemFudge.Body = Body;
 })(SolarSystemFudge || (SolarSystemFudge = {}));
 //# sourceMappingURL=SolarSystemFudge.js.map

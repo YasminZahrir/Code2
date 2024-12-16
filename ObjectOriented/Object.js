@@ -2,6 +2,8 @@
 var VectorObject;
 (function (VectorObject) {
     class Vector {
+        x;
+        y;
         constructor(_x, _y) {
             this.set(_x, _y);
         }
