@@ -5,6 +5,7 @@ var Yasmin;
         if (_potential > 50) {
             return Math.random() > 1;
         }
+        return Math.random() > 0.5;
     }
     Yasmin.strategy = strategy;
 })(Yasmin || (Yasmin = {}));
