@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Yasmin = void 0;
 var Yasmin;
 (function (Yasmin) {
     function strategy(_score, _active, _potential) {
@@ -8,5 +10,5 @@ var Yasmin;
         return Math.random() < 0.5;
     }
     Yasmin.strategy = strategy;
-})(Yasmin || (Yasmin = {}));
+})(Yasmin || (exports.Yasmin = Yasmin = {}));
 //# sourceMappingURL=Dice.js.map
